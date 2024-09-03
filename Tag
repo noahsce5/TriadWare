@@ -921,7 +921,7 @@ local GUIData = (function()
 		end
 	end)
 	
-	Mods.Text = "TriadWare " .. _V
+	Mods.Text = "TriadWare Version " .. _V
 	
 	game.Close:Connect(function()
 		Save()
