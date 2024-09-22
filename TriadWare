@@ -1,4 +1,4 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "TriadWare Mystic Falls",
-    Text = "TriadWare Script will be fixed in a minute."
+    Text = "TriadWare Script will be fixed in just a moment."
 })
