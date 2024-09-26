@@ -1,7 +1,4 @@
-local StarterGui = game:GetService("StarterGui")
-
-StarterGui:SetCore("SendNotification", {
-    Title = "TriadWare Mystic Falls";
-    Text = "TriadWare is down at the moment, try again later.";
-    Duration = 10;
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "TriadWare Mystic Falls",
+    Text = "TriadWare Script is disabled at the moment, try again later."
 })
