@@ -1,4 +1,4 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "TriadWare Mystic Falls",
-    Text = "TriadWare Script is disabled at the moment, try again later."
+    Text = "TriadWare is disabled for an update, try again later."
 })
