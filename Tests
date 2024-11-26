@@ -1,0 +1,16 @@
+if _G.Mode == nil then
+    return
+end
+
+if _G.Mode == "Eng" then
+    local scriptToLoad = game:HttpGet("https://raw.githubusercontent.com/noahsce5/TriadWare/refs/heads/main/TriadWare")
+    loadstring(scriptToLoad)()
+
+elseif _G.Mode == "OtherMode" then
+    local scriptToLoad = game:HttpGet("https://raw.githubusercontent.com/noahsce5/TriadWare/refs/heads/main/TriadWare%20Compulsion")
+    loadstring(scriptToLoad)()
+
+else
+    local scriptToLoad = game:HttpGet("https://raw.githubusercontent.com/noahsce5/TriadWare/refs/heads/main/TriadWare%20HWIDS")
+    loadstring(scriptToLoad)()
+end
